@@ -1,6 +1,4 @@
-## **README.md**
 
-```markdown
 # Reconhecimento Óptico de Caracteres (OCR) com o Azure Vision Studio
 
 Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio para extrair e analisar texto de imagens. O processo envolve o upload de imagens, a execução da análise OCR e a revisão dos dados de texto estruturados e caixas delimitadoras.
