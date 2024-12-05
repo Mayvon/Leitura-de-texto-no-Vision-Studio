@@ -10,6 +10,56 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
 1. **Configuração dos Serviços de IA no Azure**:
    - Criado um recurso de IA do Azure com capacidades do Vision Studio.
    - Configurado o recurso no Vision Studio para habilitar o OCR.
+  
+
+### Descrição do Recurso Usado e Configuração no Azure
+
+#### **Recurso Utilizado: Cognitive Services**
+O **Cognitive Services** do Azure é uma coleção de APIs e serviços que permite incorporar inteligência artificial (IA) em aplicativos de maneira simples e escalável. No caso deste projeto, o serviço utilizado foi o **Azure Computer Vision**, com foco na funcionalidade de OCR (Optical Character Recognition).
+
+##### **Finalidade do Recurso**
+O objetivo é habilitar o reconhecimento de texto em imagens, utilizando algoritmos de IA para identificar, extrair e estruturar o texto presente em arquivos visuais como JPEG, PNG, entre outros. O OCR pode ser usado para automatizar processos como leitura de documentos digitalizados, extração de informações de placas, notas fiscais e muito mais.
+
+---
+
+### **Passo a Passo da Configuração**
+
+#### **1. Criação do Recurso no Azure**
+1. **Login** no Portal do Azure: Acesse o [Portal do Azure](https://portal.azure.com) com sua conta.
+2. **Criação do Serviço**:
+   - Navegue até a opção **Criar um recurso**.
+   - Busque por **Cognitive Services** e selecione **Computer Vision**.
+   - Escolha as seguintes configurações:
+     - **Grupo de Recursos**: Crie um novo ou escolha um existente.
+     - **Nome do Recurso**: Algo único e descritivo, como `OCR-VisionService`.
+     - **Região**: Escolha uma região compatível com o OCR (exemplo: *westus2*).
+     - **Plano de Tarifa**: Selecione a tarifa de acordo com o volume esperado de processamento.
+3. **Chave de API e Endpoint**:
+   - Após a criação, vá para o recurso e copie a **Chave Primária** e o **Endpoint**.
+
+#### **2. Configuração no Vision Studio**
+1. **Acessando o Vision Studio**:
+   - Navegue para o [Vision Studio](https://azure.microsoft.com/en-us/products/ai-services/computer-vision/).
+   - Faça login com as mesmas credenciais do Azure.
+2. **Habilitar o OCR**:
+   - No painel do Vision Studio, vá para a seção **Text Extraction**.
+   - Insira o **Endpoint** e a **Chave de API** obtidos anteriormente.
+   - Teste a conexão para verificar se o serviço está devidamente configurado.
+3. **Teste Inicial**:
+   - Faça upload de uma imagem de exemplo no Vision Studio para validar o funcionamento.
+   - Observe os resultados, como o texto extraído e as informações de bounding box.
+
+---
+
+### **Possibilidades e Benefícios**
+- **Automação**: Automatiza tarefas manuais de extração de texto, reduzindo custos e aumentando a eficiência.
+- **Integração**: Pode ser usado em fluxos de trabalho com outras ferramentas, como Power Automate ou APIs customizadas.
+- **Escalabilidade**: Ideal para processar grandes volumes de dados com alta precisão e rapidez.
+
+Essa configuração possibilita criar soluções avançadas de IA com base na análise de imagens e reconhecimento de texto, aplicáveis em diversos setores.
+
+
+
 
 2. **Upload e Análise das Imagens**:
 
