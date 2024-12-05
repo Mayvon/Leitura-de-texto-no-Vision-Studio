@@ -14,7 +14,8 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
 2. **Upload e Análise das Imagens**:
 
    - Estrutura do projeto:
-'''
+
+```
 project/
 ├── inputs/
 │   ├── image1.jpg
@@ -25,7 +26,7 @@ project/
 │   ├── image2_output.json
 │   └── ...
 └── README.md
-'''
+```
 
    - Executada a análise OCR para extrair dados de texto estruturados.
 
@@ -74,4 +75,5 @@ project/
 - Integração em aplicativos web ou móveis para tarefas de OCR em tempo real.
 - Automação aprimorada para processamento de formulários e análise de documentos.
 - Combinação do OCR com APIs de tradução para reconhecimento de texto multilíngue.
+
 
