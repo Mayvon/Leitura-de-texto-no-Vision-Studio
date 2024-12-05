@@ -12,10 +12,19 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
    - Configurado o recurso no Vision Studio para habilitar o OCR.
 
 2. **Upload e Análise das Imagens**:
-   - Utilizadas imagens de exemplo fornecidas no [tutorial de OCR do Microsoft Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html).
+
    - Imagens analisadas:
-     - `advert.jpg`: Uma propaganda promocional com texto.
-     - `letter.jpg`: Um documento digitalizado com texto digitado.
+   project/
+├── inputs/
+│   ├── image1.jpg
+│   ├── image2.png
+│   └── ...
+├── outputs/
+│   ├── image1_output.json
+│   ├── image2_output.json
+│   └── ...
+└── README.md
+
    - Executada a análise OCR para extrair dados de texto estruturados.
 
 3. **Revisão dos Resultados**:
