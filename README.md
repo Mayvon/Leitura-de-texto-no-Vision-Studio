@@ -64,11 +64,3 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
 - Automação aprimorada para processamento de formulários e análise de documentos.
 - Combinação do OCR com APIs de tradução para reconhecimento de texto multilíngue.
 
----
-
-Para mais detalhes, visite a [página do tutorial de OCR](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html).
-```
-
----
-
-Se precisar de ajustes ou outras informações, é só pedir! 😊
