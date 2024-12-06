@@ -310,7 +310,8 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
     ]
   }
 ]
-  ```
+
+```
 
 ---
 
@@ -320,7 +321,7 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
 - Automação aprimorada para processamento de formulários e análise de documentos.
 - Combinação do OCR com APIs de tradução para reconhecimento de texto multilíngue.
 
----
+
 
 
 
