@@ -312,14 +312,10 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
       ]
 
 ```
+```
 
 ## **Possibilidades Futuras**
 
 - Integração em aplicativos web ou móveis para tarefas de OCR em tempo real.
 - Automação aprimorada para processamento de formulários e análise de documentos.
 - Combinação do OCR com APIs de tradução para reconhecimento de texto multilíngue.
-
-
-
-
-
