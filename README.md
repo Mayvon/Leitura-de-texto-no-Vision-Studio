@@ -88,7 +88,7 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
 
 ### Antes do Processamento
 #### Imagem da Propaganda:
-![Propaganda](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/images/advert.jpg)
+![Comprovante](inputs/comprovante.jpeg)
 
 #### Imagem da Carta:
 ![Carta](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/images/letter.jpg)
