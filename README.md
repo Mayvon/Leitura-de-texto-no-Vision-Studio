@@ -21,10 +21,10 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
    - Navegue até a opção **Criar um recurso**.
    - Busque por **Cognitive Services** e selecione **Computer Vision**.
    - Escolha as seguintes configurações:
-        - **Grupo de Recursos**: Crie um novo ou escolha um existente.
-        - **Nome do Recurso**: Algo único e descritivo, como `OCR-VisionService`.
-        - **Região**: Escolha uma região compatível com o OCR (exemplo: *westus2*).
-        - **Plano de Tarifa**: Selecione a tarifa de acordo com o volume esperado de processamento.
+        **Grupo de Recursos**: Crie um novo ou escolha um existente.
+        **Nome do Recurso**: Algo único e descritivo, como `OCR-VisionService`.
+        **Região**: Escolha uma região compatível com o OCR (exemplo: *westus2*).
+        **Plano de Tarifa**: Selecione a tarifa de acordo com o volume esperado de processamento.
 - **Chave de API e Endpoint**:
    - Após a criação, vá para o recurso e copie a **Chave Primária** e o **Endpoint**.
 
