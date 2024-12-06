@@ -8,7 +8,7 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
 ## **Visão Geral do Processo**
 
 1. ### **Configuração dos Serviços de IA no Azure**:
-      - Criado um recurso de IA do Azure com capacidades do Vision Studio.
+- Criado um recurso de IA do Azure com capacidades do Vision Studio.
       O **Cognitive Services** do Azure é uma coleção de APIs e serviços que permite incorporar inteligência artificial (IA) em aplicativos de maneira simples e escalável. No caso deste projeto, o serviço utilizado foi o **Azure Computer Vision**, com foco na funcionalidade de OCR (Optical Character Recognition).
       O objetivo é habilitar o reconhecimento de texto em imagens, utilizando algoritmos de IA para identificar, extrair e estruturar o texto presente em arquivos visuais como JPEG, PNG, entre outros. O OCR pode ser usado para automatizar processos como leitura de documentos digitalizados, extração de informações de placas, notas fiscais e muito mais.
 
