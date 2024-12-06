@@ -82,25 +82,26 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
 
 ---
 
+
+
 ## **Imagens e Resultados de Exemplo**
 
 ### Antes do Processamento
-#### Imagem do Sticker:
-![Sticker](/inputs/sticker.jpg)
+#### Imagem da Propaganda:
+![Propaganda](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/images/advert.jpg)
 
-#### Imagem da Comprovante:
-![Comprovante](/inputs/comprovante.jpg)
+#### Imagem da Carta:
+![Carta](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/images/letter.jpg)
 
 ### Após o Processamento
 #### Texto Detectado com Caixas Delimitadoras:
-- Sticker:
+- Propaganda:
   ```
-DONEIS
-BETTER
-THAN
-PERFECT
+  Northwind Traders
+  Grand Opening Sale
+  Save up to 50%!
   ```
-- Comprovante:
+- Carta:
   ```
   Prezado(a) Senhor(a),
   Temos o prazer de confirmar sua aplicação...
@@ -113,5 +114,8 @@ PERFECT
 - Integração em aplicativos web ou móveis para tarefas de OCR em tempo real.
 - Automação aprimorada para processamento de formulários e análise de documentos.
 - Combinação do OCR com APIs de tradução para reconhecimento de texto multilíngue.
+
+---
+
 
 
