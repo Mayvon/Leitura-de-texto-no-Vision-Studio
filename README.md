@@ -14,9 +14,9 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
 
    - Configurado o recurso no Vision Studio para habilitar o OCR.
 
-### **Passo a Passo da Configuração**
+#### **Passo a Passo da Configuração**
 
-#### **Criação do Recurso no Azure**
+### **Criação do Recurso no Azure**
 - **Login** no Portal do Azure: Acesse o [Portal do Azure](https://portal.azure.com) com sua conta.-
 -  **Criação do Serviço**:
    - Navegue até a opção **Criar um recurso**.
@@ -29,7 +29,7 @@ Este projeto demonstra como usar as capacidades de OCR do Azure Vision Studio pa
 - **Chave de API e Endpoint**:
    - Após a criação, vá para o recurso e copie a **Chave Primária** e o **Endpoint**.
 
-#### **Configuração no Vision Studio**
+### **Configuração no Vision Studio**
 1. **Acessando o Vision Studio**:
    - Navegue para o [Vision Studio](https://azure.microsoft.com/en-us/products/ai-services/computer-vision/).
    - Faça login com as mesmas credenciais do Azure.
@@ -55,12 +55,12 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
 ```
 /
 ├── inputs/
-│   ├── image1.jpg
+│   ├── sticker.jpg
 │   ├── image2.png
 │   └── ...
 ├── outputs/
-│   ├── image1_output.json
-│   ├── image2_output.json
+│   ├── sticker.json
+│   ├── comrovante.json
 │   └── ...
 └── README.md
 ```
@@ -85,11 +85,11 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
 ## **Imagens e Resultados de Exemplo**
 
 ### Antes do Processamento
-#### Imagem da Propaganda:
-![Propaganda](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/images/advert.jpg)
+#### Imagem do Sticker:
+![Sticker](/inputs/sticker.jpg)
 
-#### Imagem da Carta:
-![Carta](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/images/letter.jpg)
+#### Imagem da Comprovante:
+![Comprovante](/inputs/comprovante.jpg)
 
 ### Após o Processamento
 #### Texto Detectado com Caixas Delimitadoras:
