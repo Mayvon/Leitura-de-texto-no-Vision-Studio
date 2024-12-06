@@ -62,7 +62,7 @@ Essa configuração possibilita criar soluções avançadas de IA com base na an
    - Estrutura do projeto:
 
 ```
-project/
+/
 ├── inputs/
 │   ├── image1.jpg
 │   ├── image2.png
@@ -102,13 +102,14 @@ project/
 
 ### Após o Processamento
 #### Texto Detectado com Caixas Delimitadoras:
-- Propaganda:
+- Sticker:
   ```
-  Northwind Traders
-  Grand Opening Sale
-  Save up to 50%!
+DONEIS
+BETTER
+THAN
+PERFECT
   ```
-- Carta:
+- Comprovante:
   ```
   Prezado(a) Senhor(a),
   Temos o prazer de confirmar sua aplicação...
